@@ -14,12 +14,12 @@
 */
 
 @keyframes play {
-    from {
-        transform: translateX(0px);
-      }
-      to {
-        transform: translateX(4px);
-      }
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(4px);
+  }
 }
 
 @keyframes heart {
@@ -27,7 +27,7 @@
     scale: 1;
   }
   50% {
-    scale: 1.5;
+    scale: 1.15;
   }
   100% {
     scale: 1;
