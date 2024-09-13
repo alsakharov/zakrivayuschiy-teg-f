@@ -1,5 +1,7 @@
 # Закрывающий тег
 
+Ссылка на репозиторий - https://github.com/alsakharov/zakrivayuschiy-teg-f
+
 Ссылка на сайт - https://alsakharov.github.io/zakrivayuschiy-teg-f/
 
 * Тренировка адаптивной вёрстки со сменой цветовой схемы 
