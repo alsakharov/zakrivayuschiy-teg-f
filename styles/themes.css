@@ -13,7 +13,7 @@
 }
 
 .filter-theme {
-    transition: 3s ease; 
+    transition: 3s ease;
     filter: hue-rotate(0.9turn);
 }
 }
@@ -23,8 +23,8 @@
     --bg-color: #000;
     --accent-color: #00CC14;
     --button-color:#00CC14;
-    --card-text-weight: 465; 
-    --card-header-weight: 785; 
+    --card-text-weight: 465;
+    --card-header-weight: 785;
     --main-bg:
     repeating-linear-gradient(#000 0, #000 2px,
     transparent 2px, transparent 4px),
@@ -32,9 +32,10 @@
     linear-gradient(to bottom,#007f0c 0.01%, #004306 100%);
 }
 
-.filter-theme{ 
-    transition: 3s ease; 
-    filter: hue-rotate(0.1turn);}
+.filter-theme { 
+    transition: 3s ease;
+    filter: hue-rotate(0.1turn);
+ }
 }
 
 .theme-light {
@@ -52,8 +53,8 @@ linear-gradient(to bottom,#e7e7e7 0.01%, #1a1a1a 100%);
 --bg-color: #000;
 --accent-color: #00CC14;
 --button-color:#00CC14;
---card-text-weight: 465; 
---card-header-weight: 785; 
+--card-text-weight: 465;
+--card-header-weight: 785;
 --main-bg:
 repeating-linear-gradient(#000 0, #000 2px,
 transparent 2px,transparent 4px),
@@ -62,12 +63,12 @@ transparent 2px,transparent 4px),
 linear-gradient(to bottom,#007f0c 0.01%, #004306 100%);
 }
 
-.theme-light .filter-theme{
+.theme-light .filter-theme {
     transition: 3s ease;
     filter: hue-rotate(0.9turn);
 }
 
-.theme-dark .filter-theme{
-    transition: 3s ease; 
+.theme-dark .filter-theme {
+    transition: 3s ease;
     filter: hue-rotate(0.1turn);
 }
