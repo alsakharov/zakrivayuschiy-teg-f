@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    
+--main-font: 'Inter Variable', Arial, sans-serif;
+--accent-font: 'PressStart2P', Helvetica, sans-serif;
+--card-text-weight: 400; 
+--card-header-weight: 700; 
+--bg-color:#fff;
+--accent-color:#000;
+--button-color:#fff;
+--content-width: clamp(375px, 80%, 700px); 
+--border-width: 2px solid var(--accent-color);
+--heart-contour-color:var(--accent-color);
+--heart-sparks-color:#ff0000;
+}
+
