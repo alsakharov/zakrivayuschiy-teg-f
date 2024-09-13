@@ -26,6 +26,9 @@
     transition: 3s ease;
     filter: hue-rotate(0.9turn);
   }
+  .filter {
+    filter: hue-rotate(0.4turn) invert(90%);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +57,10 @@
   .filter-theme {
     transition: 3s ease;
     filter: hue-rotate(0.1turn);
+  }
+
+  .filter {
+    filter: hue-rotate(0turn) invert(0%);
   }
 }
 
@@ -104,7 +111,15 @@
   filter: hue-rotate(0.9turn);
 }
 
+.theme-light .filter {
+  filter: hue-rotate(0.4turn) invert(90%);
+}
+
 .theme-dark .filter-theme {
   transition: 3s ease;
   filter: hue-rotate(0.1turn);
+}
+
+.theme-dark .filter {
+  filter: hue-rotate(0turn) invert(0%);
 }
